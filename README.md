@@ -1,4 +1,12 @@
-# BarthDoe team
+# Citation network prediction
+
+Rules of the competition :
+
+"Edges have been deleted at random from a citation network. Your mission is to accurately reconstruct the initial network using graph-theoretical, textual, and other information.
+
+In this competition, we define a citation network as a graph where nodes are research papers and there is an edge between two nodes if one of the two papers cite the other."
+
+Best score obtained : 0.97506
 
 Description of the files :
 
@@ -6,7 +14,7 @@ data : repository with the material provided for the competition
 data_npy : repository that contains the bumpy arrays used for the best submission
 predictions : cdv files of the two best predictions we made
 creation_features.py : file which creates and saves the features and label in numpy arrays
-prediction.py : file which makes the prediction from the numpy arrays saved by creation_features.py
+prediction.py : file which computes the prediction from the numpy arrays saved by creation_features.py
 
 If you want to test our codes you can either :
 
